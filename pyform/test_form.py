@@ -489,7 +489,7 @@ class myWindow():
             Label(number_fial,text = '请输入数字').pack()
             Button(number_fial, text="返回",command=number_fial.destroy).pack()
             logging.info('请输入数字:{}'.format(e))
-            # print('请输入数字:{}'.format(e))     
+            print('请输入数字:{}'.format(e))     
 
 if __name__ == "__main__":
     root = tk.Tk()
