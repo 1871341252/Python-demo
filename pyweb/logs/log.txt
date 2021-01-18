@@ -1,0 +1,14 @@
+2020-12-09 16:35:54,856 test_exam.py[line:47] INFO 进入考试系统
+2020-12-09 16:35:55,655 test_exam.py[line:50] INFO 开始答题
+2020-12-09 16:35:59,881 test_exam.py[line:76] INFO 答题结束
+2020-12-09 16:35:59,955 test_exam.py[line:78] INFO 提交试卷
+2020-12-09 16:37:10,456 test_exam.py[line:47] INFO 进入考试系统
+2020-12-09 16:37:11,161 test_exam.py[line:50] INFO 开始答题
+2020-12-09 16:37:14,789 test_exam.py[line:76] INFO 答题结束
+2020-12-09 16:37:14,855 test_exam.py[line:78] INFO 提交试卷
+2020-12-09 16:38:28,229 test_exam.py[line:81] ERROR 正式考试失败:Message: 
+
+2020-12-09 16:38:28,682 test_exam.py[line:84] INFO 截图保存成功
+2020-12-09 16:41:11,620 test_exam.py[line:80] ERROR 正式考试失败:Message: 
+
+2020-12-09 16:41:12,037 test_exam.py[line:83] INFO 截图保存成功
