@@ -1,0 +1,35 @@
+test_01 (test_01.TestDemo)
+测试用例1 ... ok
+test_02 (test_01.TestDemo)
+测试用例2 ... FAIL
+test_03 (test_01.TestDemo)
+测试用例3 ... ok
+test_01_login (test_02.TestLogin)
+登录接口测试用例 ... ok
+test_02_inspirernew (test_02.TestLogin)
+登录接口测试用例 ... FAIL
+test_03_getinspirer (test_02.TestLogin)
+登录接口测试用例 ... ok
+
+======================================================================
+FAIL: test_02 (test_01.TestDemo)
+测试用例2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\workhome\PythonPro\Xtest\test_01.py", line 11, in test_02
+    self.assertEqual(a,3,msg="这是测试失败的用例")
+AssertionError: 2 != 3 : 这是测试失败的用例
+
+======================================================================
+FAIL: test_02_inspirernew (test_02.TestLogin)
+登录接口测试用例
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\workhome\PythonPro\Xtest\test_02.py", line 32, in test_02_inspirernew
+    self.assertEqual(yuqi,shiji)
+AssertionError: 200 != 401
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.373s
+
+FAILED (failures=2)
