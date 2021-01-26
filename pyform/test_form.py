@@ -294,6 +294,7 @@ class myWindow():
         update_user_ui1=tk.Toplevel()
         update_user_ui1.geometry("300x350")
         update_user_ui1.title("修改个人资料")
+
         Label(update_user_ui1,text = '用户名').grid(row=1,column=0,padx=10,pady=10)
         name2=tk.StringVar()
         Entry(update_user_ui1,textvariable=name2).grid(row=1,column=1)
@@ -490,6 +491,7 @@ class myWindow():
             Button(number_fial, text="返回",command=number_fial.destroy).pack()
             logging.info('请输入数字:{}'.format(e))
             print('请输入数字:{}'.format(e))     
+
 
 if __name__ == "__main__":
     root = tk.Tk()
