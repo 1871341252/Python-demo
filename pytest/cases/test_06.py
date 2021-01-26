@@ -20,6 +20,7 @@ class TestLogin(unittest.TestCase):
 
     def test_02_inspirernew(self):
         """登录接口测试用例"""
+        global res
         url = host + datalist[1][2]
         headers = eval(datalist[1][4])
         data = eval(datalist[1][5])
