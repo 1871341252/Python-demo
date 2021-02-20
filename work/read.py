@@ -24,5 +24,12 @@ arr = [64, 34, 25, 12, 22, 11, 90]
 bubbleSort(arr)
 
 print('排序后的数组:{}'.format(arr))
-for i in range(len(arr)):
-    print("%d" % arr[i])
+# for i in range(len(arr)):
+#     print("%d" % arr[i])
+list1=[1,2,3,4,'a','b','c','d']
+type1=(1,2,3,4,'a','b','c','d')
+dist1={"1":"a","2":"b","3":"c","4":"d"}
+
+print(list1[1])
+print(type1[1])
+print(dist1["1"])
